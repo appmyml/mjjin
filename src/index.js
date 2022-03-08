@@ -1,3 +1,4 @@
+// dd 
 const { COOKIE, ALL_IN } = require('./lib/config')
 const message = require('./lib/message')
 
@@ -51,7 +52,7 @@ async function dipLucky() {
   if (dip_action === 1) return `沾喜气成功! ${BeamingValue}`
 }
 
-;(async () => {
+; (async () => {
   // 查询今日是否已经签到
   const today_status = await api.get_today_status()
   if (today_status) {
