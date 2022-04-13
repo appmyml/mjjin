@@ -11,6 +11,9 @@ jobs:
   check_in:
     runs-on: ubuntu-latest
     steps:
+      - name: setgithub
+        run: |
+          	git config --global --add safe.directory /github/workspace
       # 切换分支
       - name: Checkout
         uses: actions/checkout@master
