@@ -1,4 +1,4 @@
-# test
+# 
 name: 掘金自动签到
 on:
   workflow_dispatch:
